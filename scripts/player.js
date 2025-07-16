@@ -8,7 +8,7 @@ export default class Player {
         this.y = GAME_HEIGHT - (this.h + 20);
         this.image = new Image();
         // this.image.src = "../assets/still.png";
-        this.runImages = ["../assets/run1.png" , "../assets/run2.png"];
+        this.runImages = ["./assets/run1.png" , "./assets/run2.png"];
         this.index = 0;
         this.image.src = this.runImages[this.index];
         this.isJumping = false;
