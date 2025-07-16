@@ -7,7 +7,7 @@ export default class Floor {
         this.w = 2400;
         this.h = 24;
         this.image = new Image();
-        this.image.src = "../assets/floor.png";
+        this.image.src = "./assets/floor.png";
         this.speed = SPEED;
     }
     draw(context) {
