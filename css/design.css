@@ -1,0 +1,9 @@
+#canvas {
+    border: 1px solid black;
+}
+#frame {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
